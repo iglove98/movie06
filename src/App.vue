@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-  import { ref } from 'vue';
+  import { ref,onMounted } from 'vue';
   import Card from './components/Card.vue'
 
   const movieList = ref([]);
