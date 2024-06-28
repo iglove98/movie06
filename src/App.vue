@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-  import { ref,onMounted } from 'vue';
+  import { ref } from 'vue';
   import Card from './components/Card.vue'
 
   const movieList = ref([]);
@@ -50,9 +50,9 @@
   }
 
   
-  onMounted(()=>{
+  
     popular()
-  });
+  
 
 </script>
 
